@@ -21,7 +21,7 @@ header{
 header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30 px;
-    color: aqua;
+    color: rgb(22, 16, 16);
 }
 nav{
     background-color: cornflowerblue;
@@ -30,7 +30,7 @@ nav{
     padding: 15 px 0;
 }
 .menu a{
-    color: rgb(236, 43, 43);
+    color: lightgoldenrodyellow;
     font-family: cursive;
     text-decoration: none;
     font-size: 16px;
@@ -44,4 +44,189 @@ nav{
 .menu a:hover{
     color:coral;
     text-decoration: underline;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: auto;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+    background-color:red;
+    color: whitesmoke;
+    padding: 30px 100px;
+    opacity: 0.5;
+    text-align: center;
+}
+.info h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#feature{
+    padding: 30px 0;
+    text-align: center;
+}
+#feature h3{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-align: center;
+    border-bottom: 2px solid steelblue;
+    display: inline-block;
+    color: steelblue;
+}
+.boxes{
+    padding-top: 30px;
+    display: flex;
+}
+.box{
+    width: 30%;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 400px;
+}
+.box h4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 0.8;
+}
+.box h4 a{
+    text-align: left;
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box h4 a:hover{
+    text-decoration: underline;
+}
+#newsletter{
+    padding: 40px 0;
+    background-image: url('../images/banner.jpg');
+}
+#newsletter form{
+    display: block;
+    text-align: center;
+}
+#newsletter input[type=text]{
+    padding: 10px 5px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+#newsletter input[type=submit]{
+    padding: 10px;
+    background-color: steelblue;
+    border: none;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+#newsletter h5{
+    color: red;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+footer{
+    padding: 30px 0;
+}
+.fboxes{
+    display: flex;
+}
+.fbox{
+    width: 23%;
+}
+.fbox h6{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    color: steelblue;
+}
+.fbox ul{
+    list-style: none;
+}
+.fbox ul li{
+    border-bottom: 1px dotted black;
+    padding: 5px 0;
+}
+.fbox ul li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: red;
+}
+.fbox ul li a:hover{
+    color:steelblue;
+}
+#content{
+    padding: 30px 0;
+}
+#content h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: red;
+    margin-bottom: 20px;
+}
+.days{
+    background-color: steelblue;
+    color: white;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.medium{
+    background-color: red;
+    color: white;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.nature{
+    background-color: green;
+    color: white;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#content img{
+    text-align: left;
+    display: block;
+    margin: 20px 0;
+}
+
+.itinerary{
+   margin: 20px 0;
+}
+.itinerary h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.itinerary p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.book{
+    background-color: green;
+    color: white;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    display: inline-block;
 }
